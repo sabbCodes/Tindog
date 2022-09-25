@@ -1,0 +1,115 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*============
+    Layout
+==============*/
+main{
+    width: 380px;
+    max-width: 550px;
+    background: #fff;
+    height: 100vh;
+    margin: 0 auto;
+    padding: .3rem .5rem .3rem .3rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: .4em .5em;
+    height: 7vh;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 35px;
+}
+
+#logo{
+    width: 100px;
+}
+
+section{
+    width: 100%;
+    background: #fff;
+}
+
+#main-image{
+    width: 100%;
+    border-radius: 12px;
+    height: 80vh;
+}
+
+.action{
+    margin-top: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .9rem;
+}
+
+.action img{
+    width: 25px;
+    padding: .8rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#reject-icon:hover,
+#reject-icon:focus{
+    background: rgba(240, 200, 200, 0.5);
+}
+
+#like-icon:hover,
+#like-icon:focus{
+    background: rgba(151, 250, 223, 0.5);
+}
+
+.texts{
+    position: absolute;
+    top: 79vh;
+    left: 8vw;
+    color: #fff;
+}
+
+#like-badge,
+#reject-badge{
+    width: 10rem;
+    position: absolute;
+    top: 14.5vh;
+    left: 3vw;
+    rotate: -45deg;
+}
+
+.badges{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+/*============
+    Typography
+==============*/
+h3, p{
+    margin: .1rem 0;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-weight: 700;
+    text-shadow: 7px 7px 9px black;
+    font-size: 1.5rem;
+}
+
+p{
+    font-weight: 400;
+    text-shadow: 7px 7px 10px #000000;
+    font-size: 1.2rem;
+}
